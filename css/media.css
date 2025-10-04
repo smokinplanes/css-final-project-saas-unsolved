@@ -1,0 +1,426 @@
+@media (min-width: 1024px) {
+  .fa.fa-bars {
+    display: none;
+  }
+  .top-section-list ul li a:hover,
+  .learn-more:hover,
+  .ajax a:hover,
+  .frame-16 ul li a:hover,
+  .frame-17 ul li a:hover,
+  .frame-18 ul li a:hover,
+  .frame-19 ul li a:hover,
+  .footer-address ul li p a:hover {
+    color: rgba(36, 118, 255, 1);
+  }
+
+  .Buy-Now:hover,
+  .play-video-button:hover,
+  .submit-form-button:hover {
+    color: snow;
+    background-color: darkblue;
+  }
+
+  .play-video-button:hover .fa-solid.fa-play {
+    color: darkblue;
+  }
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+  .nav-list a,
+  .Buy-Now,
+  .nav-list li {
+    display: none;
+  }
+
+  .top-section {
+    height: 46.9em;
+  }
+
+  .top-section-list {
+    width: 1em;
+  }
+
+  .top-section-backround {
+    height: 24.25em;
+  }
+
+  .hero-section {
+    flex-direction: column;
+    gap: 10px;
+    height: 40em;
+  }
+
+  #hero-section-left-part {
+    padding-bottom: 60px;
+    flex: none;
+    height: 15.19em;
+    justify-content: flex-start;
+  }
+
+  #hero-section-title {
+    width: 100%;
+    height: 4.75em;
+  }
+
+  #hero-section-title p {
+    justify-content: center;
+    font-size: 14px;
+  }
+
+  #hero-section-title h1 {
+    font-size: 38px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  #hero-section-actions {
+    justify-content: center;
+    width: 100%;
+    gap: 24px;
+    height: 2.9em;
+  }
+
+  #hero-section-right-part {
+    flex: none;
+    height: 19.1em;
+  }
+
+  /*front section*/
+  .front-section {
+    height: 16.89em;
+  }
+  .front-title {
+    width: 87%;
+  }
+  .bullet-list {
+    width: 99%;
+  }
+  .bullet {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    height: 5.5em;
+    width: 100%;
+  }
+
+  .bullet p {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  /*pricing section*/
+
+  .plans-features-list {
+    flex-direction: column;
+    padding: 0 44px;
+  }
+
+  .plan {
+    flex: none;
+    width: 87.3%;
+    align-items: center;
+    box-shadow: none;
+  }
+
+  .plan-header {
+    align-items: center;
+  }
+
+  .plan-divider {
+    width: 100%;
+    border-bottom: 1px solid #667778;
+  }
+
+  .actions {
+    justify-content: center;
+  }
+
+  .plan-footer {
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .plan-footer p {
+    margin: 0;
+  }
+
+  /*hire-us-section*/
+  .hire-us-section {
+    flex-direction: column;
+  }
+
+  #hire-us-left-part {
+    flex-direction: row;
+    padding: 40px 30px 20px 30px;
+  }
+
+  .hire-us-top {
+    width: 150%;
+  }
+
+  #hire-us-right-part {
+    padding: 30px;
+  }
+
+  .frame-20 .ajax:nth-child(2) a {
+    display: none;
+  }
+  .frame-15 {
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 767px) {
+  /*top section list*/
+  .top-section-list ul li,
+  .Buy-Now {
+    display: none;
+  }
+
+  .top-section {
+    height: 703px;
+  }
+
+  .top-section-list {
+    width: 1em;
+  }
+
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    height: 175%;
+  }
+
+  .top-section-backround {
+    padding: 40px 16px;
+    height: 20em;
+  }
+
+  #hero-section-left-part {
+    flex: none;
+    padding-bottom: 60px;
+  }
+
+  .hero-section .title {
+    width: 100%;
+    height: 6.8em;
+  }
+
+  #hero-section-left-part h1 {
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+  }
+
+  #hero-section-left-part p {
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .hero-section .actions {
+    width: 100%;
+    justify-content: center;
+  }
+
+  #hero-section-right-part {
+    height: 19.2em;
+    flex: none;
+  }
+  /*top section list end*/
+  /*front section*/
+  .front-section {
+    padding: 0px 0px 60px 0px;
+  }
+
+  .front-title {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px 16px;
+    width: 90%;
+  }
+
+  .bullet-list {
+    flex-direction: column;
+    gap: 17px;
+    width: 80%;
+  }
+
+  .bullet {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    gap: 24px;
+    width: 100%;
+  }
+
+  .bullet p {
+    margin: 0;
+    text-align: left;
+    width: 100%;
+  }
+
+  .left-wing,
+  .right-wing {
+    display: none;
+  }
+  /*front section end*/
+
+  .pricing-section {
+    height: 80em;
+  }
+
+  .plan {
+    flex: 1;
+    box-shadow: none;
+  }
+
+  .plan-header {
+    align-items: center;
+  }
+
+  .plan-features {
+    flex: none;
+    width: 100%;
+  }
+
+  .plan-divider {
+    width: 100%;
+    border-bottom: 1px solid #667778;
+  }
+
+  .plan-footer {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .plan-footer p {
+    margin: 0;
+  }
+
+  .plan-footer .actions {
+    justify-content: center;
+  }
+
+  .row-one,
+  .row-two {
+    flex-direction: column;
+  }
+  /*hire-us-section*/
+  .hire-us-section {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  #hire-us-left-part {
+    padding: 40px 16px 20px 16px;
+  }
+
+  .hire-us-top {
+    width: 100%;
+    text-align: center;
+  }
+
+  #hire-us-title {
+    width: 100%;
+  }
+
+  #hire-us-title h3 {
+    font-size: 26px;
+  }
+
+  #hire-us-title p {
+    text-align: center;
+  }
+
+  .bottom {
+    width: 100%;
+
+    justify-content: center;
+    align-items: center;
+  }
+  .bottom h3 {
+    text-align: center;
+  }
+
+  .persons-images img {
+    height: 3.627em;
+  }
+
+  #hire-us-right-part {
+    padding: 30px 16px;
+  }
+
+  .form-group {
+    flex-direction: column;
+  }
+
+  .checkbox-container {
+    align-items: flex-start;
+  }
+
+  .ajax:nth-child(2) {
+    display: none;
+  }
+
+  .form-actions {
+    width: 50%;
+  }
+
+  .submit-form-button {
+    height: 3.41em;
+  }
+  /*hire us section end*/
+  /*footer section start*/
+  .footer {
+    padding: 80px 16px 40px 16px;
+  }
+
+  .frame-2 {
+    flex-direction: column;
+  }
+
+  .frame-14 {
+    width: 100%;
+  }
+
+  .footer-logo {
+    width: 100%;
+    align-items: center;
+  }
+
+  .footer-address {
+    width: 100%;
+
+    align-items: center;
+  }
+  .frame-15 {
+    flex-direction: column;
+  }
+
+  .frame-16,
+  .frame-17,
+  .frame-18,
+  .frame-19 {
+    align-items: center;
+  }
+
+  .frame-16 ul,
+  .frame-17 ul,
+  .frame-18 ul,
+  .frame-19 ul {
+    text-align: center;
+    align-items: center;
+  }
+
+  .fa-solid.fa-circle-info,
+  .fa-solid.fa-circle-user {
+    font-size: 12px;
+  }
+}

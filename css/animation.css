@@ -1,0 +1,77 @@
+@media (min-width: 1023px) {
+  @keyframes fadeinoutattlasian {
+    0% {
+      transform: translatey(25em);
+      opacity: 0;
+    }
+  }
+
+  .attlasian {
+    animation: fadeinoutattlasian 2s ease-in-out;
+  }
+  @keyframes fadeinoutpaypal {
+    0% {
+      transform: translatey(16em);
+      opacity: 0;
+    }
+  }
+
+  .paypal {
+    animation: fadeinoutpaypal 2s ease-in-out;
+  }
+
+  @keyframes fadeinoutweave {
+    0% {
+      transform: translateY(15.5em);
+      opacity: 0;
+    }
+  }
+
+  .weave {
+    animation: fadeinoutweave 2s ease-in-out;
+  }
+
+  @keyframes fadeinoutcalendar {
+    0% {
+      transform: translateY(5em);
+      opacity: 0;
+    }
+  }
+
+  .calendar {
+    animation: fadeinoutcalendar 2s ease-in-out;
+  }
+
+  @keyframes fadeinoutgoogle {
+    0% {
+      transform: translateX(45em);
+      opacity: 0;
+    }
+  }
+}
+
+.google {
+  animation: fadeinoutgoogle 2s ease-in-out;
+}
+
+@keyframes fadeinoutasana {
+  0% {
+    transform: translateX(10em);
+    opacity: 0;
+  }
+}
+
+.asana {
+  animation: fadeinoutasana 2s ease-in-out;
+}
+
+@keyframes fadeinoutgoogleads {
+  0% {
+    transform: translateX(27em);
+    opacity: 0;
+  }
+}
+
+.google-ads {
+  animation: fadeinoutgoogleads 2s ease-in-out;
+}
